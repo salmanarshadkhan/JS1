@@ -17,3 +17,4 @@ if (price < 0 || discount < 0 || discount > 100) {
     console.log("You get a free gift!");
   }
 }
+//All done for today
