@@ -1,1 +1,10 @@
+# Ignore Node.js and package files
 node_modules/
+package.json
+package-lock.json
+
+# Ignore VS Code settings and system files
+.vscode/
+.DS_Store
+
+# You can add other files you don't want on GitHub here
