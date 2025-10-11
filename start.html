@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+let price = parseFloat(prompt("Enter the price of the product:"));
+let discount = parseFloat(prompt("Enter the discount percentage:"));
+if (price < 0 || discount < 0 || discount > 100 ) {
+    console.log("Invalid input")
+} 
+else {
+const td = (price / 100) * discount ;
+const final = price - td ;
+console.log ("So the final discount after is", final);
+if (final > 5000 )
+    {
+        console.log("You get a free gift!")
+    }
+}
+  </script>
+</body>
+</html>
