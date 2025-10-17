@@ -1,52 +1,39 @@
+/* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} 
 body {
-    font-family: 'Poppins', sans-serif;
-    background-color: #f7f7f7;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .container {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 1.5rem;
-  }
-  
-  .btn {
-    padding: 12px 20px;
-    border: none;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s ease;
-  }
-  
-  .btn.primary {
-    background-color: #ff6b6b;
-    color: white;
-  }
-  
-  .btn.secondary {
-    background-color: #4ecdc4;
-    color: white;
-  }
-  
-  .btn.sale {
-    background-color: #1a73e8;
-    color: white;
-  }
-  
-  .btn:hover {
-    transform: translateY(-3px);
-    opacity: 0.9;
-  }
-  
-  #message {
-    font-size: 18px;
-    color: #333;
-    font-weight: 500;
-  }
-  
+ margin-top: 3px;
+margin-bottom: 0px;
+margin-left: 100px;
+margin-right: 100px;
+border: 5px rgb(0, 0, 0) solid;
+border-radius: 20px;
+padding-left: 2px;
+padding-right: 2px; ;
+padding-top : 0px;
+}
+
+
+.resume {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 50px; 
+}
+.photo {
+border: 2px rgb(0, 0, 0) solid;
+}
+
+h1{
+
+  background-color: aliceblue;
+} */
